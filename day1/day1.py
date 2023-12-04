@@ -62,6 +62,6 @@ def extractNumbers(lines):
 
 
 if __name__ == "__main__":
-    lines = readFile("day1.txt")
+    lines = readFile("day1/day1.txt")
     sum = extractNumbers(lines)
     print(sum)
